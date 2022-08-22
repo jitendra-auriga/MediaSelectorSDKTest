@@ -17,6 +17,7 @@
 		042C6B9528ACC3CE005B11C0 /* SKDDemoTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C6B9428ACC3CE005B11C0 /* SKDDemoTestUITests.swift */; };
 		042C6B9728ACC3CE005B11C0 /* SKDDemoTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C6B9628ACC3CE005B11C0 /* SKDDemoTestUITestsLaunchTests.swift */; };
 		0473D1AC28B3764300AABC6E /* MediaSelectorUNI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0473D1AB28B3764300AABC6E /* MediaSelectorUNI.xcframework */; };
+		04F3E67728B379980066CFEB /* MediaSelectorUNI.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0473D1AB28B3764300AABC6E /* MediaSelectorUNI.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				04F3E67728B379980066CFEB /* MediaSelectorUNI.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
