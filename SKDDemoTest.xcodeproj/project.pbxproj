@@ -16,8 +16,7 @@
 		042C6B8B28ACC3CE005B11C0 /* SKDDemoTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C6B8A28ACC3CE005B11C0 /* SKDDemoTestTests.swift */; };
 		042C6B9528ACC3CE005B11C0 /* SKDDemoTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C6B9428ACC3CE005B11C0 /* SKDDemoTestUITests.swift */; };
 		042C6B9728ACC3CE005B11C0 /* SKDDemoTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042C6B9628ACC3CE005B11C0 /* SKDDemoTestUITestsLaunchTests.swift */; };
-		0448857528B1330300BAE1AB /* MediaSelector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0448857428B1330300BAE1AB /* MediaSelector.framework */; };
-		0448857628B1330A00BAE1AB /* MediaSelector.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0448857428B1330300BAE1AB /* MediaSelector.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0473D1AC28B3764300AABC6E /* MediaSelectorUNI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0473D1AB28B3764300AABC6E /* MediaSelectorUNI.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +43,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0448857628B1330A00BAE1AB /* MediaSelector.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,7 +63,7 @@
 		042C6B9028ACC3CE005B11C0 /* SKDDemoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKDDemoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042C6B9428ACC3CE005B11C0 /* SKDDemoTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKDDemoTestUITests.swift; sourceTree = "<group>"; };
 		042C6B9628ACC3CE005B11C0 /* SKDDemoTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKDDemoTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		0448857428B1330300BAE1AB /* MediaSelector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MediaSelector.framework; sourceTree = "<group>"; };
+		0473D1AB28B3764300AABC6E /* MediaSelectorUNI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = MediaSelectorUNI.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0448857528B1330300BAE1AB /* MediaSelector.framework in Frameworks */,
+				0473D1AC28B3764300AABC6E /* MediaSelectorUNI.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +115,7 @@
 		042C6B7228ACC3CD005B11C0 /* SKDDemoTest */ = {
 			isa = PBXGroup;
 			children = (
-				0448857428B1330300BAE1AB /* MediaSelector.framework */,
+				0473D1AB28B3764300AABC6E /* MediaSelectorUNI.xcframework */,
 				042C6B7328ACC3CD005B11C0 /* AppDelegate.swift */,
 				042C6B7528ACC3CD005B11C0 /* SceneDelegate.swift */,
 				042C6B7728ACC3CD005B11C0 /* ViewController.swift */,
